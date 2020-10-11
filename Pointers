@@ -1,0 +1,23 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+
+int main()
+{
+    int *p,i;
+    int arr[10],n;
+    p=arr;
+
+    cout<<"Enter elements : \n";
+    for(i=0;i<5;i++)
+    {
+        cin>>arr[i];
+    }
+    cout<<"\n\nYou entered :\n";
+    for(i=0;i<5;i++)
+    {
+        cout<<*p<<"\n";
+        p++;
+    }
+    return 0;
+}
